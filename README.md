@@ -1,5 +1,11 @@
 # XAMPPっぽいDevContainer環境構成
 
+## 概要
+
+Nginx + PHP + MySQLの環境を作成するDevContainerです。
+Wordpressなどもいれられるはずです。
+でもまだPHPMyAdminははいってないです。
+
 ## 使用方法
 
 1. このリポジトリをクローン
