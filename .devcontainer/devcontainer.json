@@ -10,7 +10,8 @@
 	"forwardPorts": [80, 3306],
 
 	// Install and configure necessary tools
-	"postCreateCommand": "sudo mkdir -p /var/run/php && sudo chown www-data:www-data /var/run/php && sudo chmod 755 /var/run/php && sudo service php8.2-fpm start && sudo service nginx start",
+	"postCreateCommand": "sudo mkdir -p /var/run/php && sudo chown www-data:www-data /var/run/php && sudo chmod 755 /var/run/php",
+	"postStartCommand": "sudo service php8.2-fpm start && sudo service nginx start",
 
 	// Configure tool-specific properties
 	"customizations": {
